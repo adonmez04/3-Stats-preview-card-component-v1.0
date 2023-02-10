@@ -1,0 +1,122 @@
+/* GLOBAL STYLES */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  background: #0a0c1c;
+
+  /* To center the content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* The Flexbox Template */
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* The Grid Template */
+.grid {
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+/* COMPONENT STYLES */
+
+.section-preview-card {
+  width: 327px;
+  background: #1b1937;
+  box-shadow: 0px 20px 20px -10px rgba(23, 25, 41, 0.203087);
+  border-radius: 8px;
+  overflow: hidden;
+
+  row-gap: 40px;
+}
+
+.img-box {
+  width: 100%;
+  height: 240px;
+  background-image: linear-gradient(
+      rgba(170, 92, 219, 0.75),
+      rgba(170, 92, 219, 0.75)
+    ),
+    url(./images/image-header-mobile.jpg);
+  background-size: cover;
+}
+
+.img {
+  display: block;
+  width: 100%;
+}
+
+.content-box {
+  padding: 0 31.5px 32px 31.5px;
+  gap: 40px;
+}
+
+.text-area {
+  gap: 16px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.span-title {
+  color: #ab5cdb;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+.information-area {
+  gap: 24px;
+}
+
+.data {
+  gap: 2px;
+}
+
+.data-number {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.data-title {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
