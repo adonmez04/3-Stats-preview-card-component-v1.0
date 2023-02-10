@@ -2,24 +2,25 @@
 
 @media (min-width: 375px) {
   /* GLOBAL STYLES */
-  /* The Grid Template */
-  .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
   /* The Flexbox Template */
   .flex {
     display: flex;
-    flex-direction: row;
-    /* align-items: center; */
-    justify-content: flex-start;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .flex-column {
+    display: flex;
+    flex-direction: r;
+    align-items: center;
+    justify-content: space-between;
   }
 
   /* COMPONENT STYLES */
   .section-preview-card {
     width: 1110px;
-    column-gap: 95px;
+    gap: 95px;
   }
 
   .img-box {
