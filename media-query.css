@@ -1,24 +1,43 @@
 /* ABOVE 375px */
 
 @media (min-width: 375px) {
-  .section-preview-card {
-    background: #1b1937;
-    box-shadow: 0px 20px 20px -10px rgba(23, 25, 41, 0.203087);
-    border-radius: 8px;
-    overflow: hidden;
-
-    row-gap: 40px;
-    /* Temp */
-    /* width: 327px;
-    height: 780px; */
-  }
-
+  /* GLOBAL STYLES */
+  /* The Grid Template */
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
+  /* The Flexbox Template */
+  .flex {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: flex-start;
+  }
+
+  /* COMPONENT STYLES */
+  .section-preview-card {
+    width: 1110px;
+    column-gap: 95px;
+  }
+
   .img-box {
-    grid-column: -1;
+    width: 540px;
+    height: 446px;
+  }
+
+  .title {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .content-box {
+    padding: 71px 0 59px 71.5px;
+    gap: 72px;
+  }
+
+  .information-area {
+    gap: 63px;
   }
 }
