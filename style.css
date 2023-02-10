@@ -27,12 +27,6 @@ body {
   justify-content: space-between;
 }
 
-/* The Grid Template */
-.grid {
-  display: grid;
-  grid-template-rows: auto 1fr;
-}
-
 /* COMPONENT STYLES */
 
 .section-preview-card {
@@ -42,7 +36,7 @@ body {
   border-radius: 8px;
   overflow: hidden;
 
-  row-gap: 40px;
+  gap: 40px;
 }
 
 .img-box {

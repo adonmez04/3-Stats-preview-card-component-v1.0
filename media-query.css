@@ -20,7 +20,7 @@
   /* COMPONENT STYLES */
   .section-preview-card {
     width: 1110px;
-    column-gap: 95px;
+    gap: 95px;
   }
 
   .img-box {
@@ -42,6 +42,11 @@
     grid-row: 1;
   }
 
+  .text-area {
+    flex-direction: column;
+    gap: 25px;
+  }
+
   .title {
     text-align: left;
   }
@@ -52,6 +57,7 @@
 
   .information-area {
     flex-direction: row;
+    justify-content: flex-start;
     gap: 63px;
   }
 }
