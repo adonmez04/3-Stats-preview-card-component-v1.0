@@ -1,8 +1,8 @@
-# Frontend Mentor - Stats preview card component
+# Frontend Mentor - Stats preview card component v1.0
 
 **Table of Contents**
 
-- [Frontend Mentor - Stats preview card component](#frontend-mentor---stats-preview-card-component)
+- [Frontend Mentor - Stats preview card component v1.0](#frontend-mentor---stats-preview-card-component-v10)
   - [Welcome! 👋](#welcome-)
   - [Links](#links)
   - [Overview](#overview)
