@@ -1,0 +1,228 @@
+/* THE MOBILE FIRST SOLUTION */
+/* UNDER 750px */
+
+/* GLOBAL STYLES */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 0.9375rem;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  background: #0a0c1c;
+
+  /* To center the content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* The Grid Template */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+}
+
+/* The Flexbox Template */
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* COMPONENT STYLES */
+
+.section-preview-card {
+  width: 20.4375rem;
+  background: #1b1937;
+  box-shadow: 0rem 1.25rem 1.25rem -0.625rem rgba(23, 25, 41, 0.203087);
+  border-radius: 0.5rem;
+  overflow: hidden;
+
+  row-gap: 2.5rem;
+}
+
+/* The background-image solution - Start */
+
+.img-box {
+  width: 100%;
+  height: 15rem;
+  background-image: url(./images/image-header-mobile.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-box::before {
+  content: "";
+  display: block;
+  width: 20.4375rem;
+  padding-bottom: 15rem;
+  background: rgba(170, 92, 219, 0.7511);
+  /* background: rgba(27, 25, 56, 0.8); */
+  /* background-color: hsla(277, 100%, 24.5%, 0.57); */
+  /* filter: brightness(40%); */
+  /* filter: opacity(40%); */
+  mix-blend-mode: multiply;
+}
+
+/* The background-image solution - End */
+
+.content-box {
+  padding: 0 1.9688rem 2rem 1.9688rem;
+  gap: 2.5rem;
+}
+
+.text-area {
+  gap: 1rem;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.span-title {
+  color: #ab5cdb;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+  text-align: center;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+/* The Iteration Area */
+.information-area {
+  gap: 1.5rem;
+}
+
+.data {
+  gap: 0.125rem;
+}
+
+.data-number {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.data-title {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.5625rem;
+  text-align: center;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+/* ABOVE 750px */
+
+@media (min-width: 46.875em) {
+  /* GLOBAL STYLES */
+  /* The Grid Template */
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  /* The Flexbox Template */
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  /* COMPONENT STYLES */
+  .section-preview-card {
+    width: 69.375rem;
+    column-gap: 5.9375rem;
+  }
+
+  /* The background-image solution - Start */
+
+  .img-box {
+    width: 33.75rem;
+    height: 27.875rem;
+
+    /* Changing the order */
+    grid-column: 2;
+    grid-row: 1;
+
+    background-image: url(./images/image-header-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .img-box::before {
+    width: 33.75rem;
+    padding-bottom: 27.875rem;
+  }
+
+  /* The background-image solution - End */
+
+  .title {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+  }
+
+  .content-box {
+    padding: 4.4375rem 0 3.6875rem 4.4688rem;
+    gap: 4.5rem;
+
+    /* Changing the order */
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .text-area {
+    gap: 1.5625rem;
+  }
+
+  .title {
+    text-align: left;
+  }
+
+  .description {
+    width: 23.375rem;
+    text-align: left;
+  }
+
+  /* The Iteration Area */
+
+  .information-area {
+    flex-direction: row;
+    gap: 3.9375rem;
+  }
+
+  .data-number {
+    text-align: left;
+  }
+
+  .data-title {
+    text-align: left;
+  }
+}
