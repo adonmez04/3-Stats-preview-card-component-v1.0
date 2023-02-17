@@ -18,11 +18,11 @@ Welcome to my solution page. I hope you'll find some good implemantions for this
 
 ## Links
 
-- [My Live Site]([My live site in github.io](https://adonmez04.github.io/FEM-3-Stats-preview-card-component-v1/))
+- [My Live Site](https://adonmez04.github.io/FEM-3-Stats-preview-card-component-v1/)
 
 - [My Solution Page](https://www.frontendmentor.io/solutions/fem3statspreviewcardcomponent-v11-xAYXaBsNli)
 
-- [The Challenge Page]([Add the link from then https://www.frontendmentor.io/challenges](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62))
+- [The Challenge Page](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62)
 
 ## Overview
 
