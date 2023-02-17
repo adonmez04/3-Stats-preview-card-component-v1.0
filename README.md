@@ -1,28 +1,39 @@
 # Frontend Mentor - Stats preview card component
 
-![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)
+**Table of Contents**
+
+- [Frontend Mentor - Stats preview card component](#frontend-mentor---stats-preview-card-component)
+  - [Welcome! 👋](#welcome-)
+  - [Links](#links)
+  - [Overview](#overview)
+  - [The Problems and Solutions](#the-problems-and-solutions)
+  - [Acknowledgments](#acknowledgments)
+  - [Author](#author)
 
 ## Welcome! 👋
 
-Welcome to my solution page. I hope you'll find some good implemantions for this problem here.  
-You can check out the following links to my solution page at frontendmentor.io and the live site .
+Welcome to my solution page. I hope you'll find some good implemantions for this project here.
+
+![Stats preview card component](./design/desktop-preview.jpg)
+
+## Links
+
+- [My Live Site]([My live site in github.io](https://adonmez04.github.io/FEM-3-Stats-preview-card-component-v1/))
 
 - [My Solution Page](https://www.frontendmentor.io/solutions/fem3statspreviewcardcomponent-v11-xAYXaBsNli)
 
-- [The Live Site](https://adonmez04.github.io/FEM-3-Stats-preview-card-component/)
+- [The Challenge Page]([Add the link from then https://www.frontendmentor.io/challenges](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62))
 
-## The Problems
+## Overview
 
 Almost every project has a unique problem for improving our coding skills. Problems sound terrible but we should solve them for the our learning process. It would be better if it was the official solution page. However, we can look at other solutions and collect some good implementations. Maybe that's why there aren't any official solution pages. We should spend time to check others code thus we'll understand what is the solution.
 
-In this project, obviously there are two problems:
+## The Problems and Solutions
 
 1. First, we should change the direction for mobile and desktop versions.
 2. Secondly, we should add a background-color to the image.
 
 Both of them are good problems because we'll encounter these problems a lot.
-
-## The Solutions
 
 1. For first problem, I used a CSS Grid and added it to the classes. And then in the media query, I changed to the direction.
 
@@ -94,17 +105,21 @@ I used padding-bottom instead of height. Because padding-bottom value will be ca
 
 I'm sure I'll change my code based on some good comments and implementations. I'm in the learning process and this is so natural. For now this is my stable solution and I'm okay with that. If I make any major changes to my code, I'll create a new repository for the new version of the solution so you can check the solutions according to the current commit.
 
-<!-- ### Good Implementations
+<!-- ## My Questions -->
 
-### Useful Resources
+<!-- ## Feedbacks -->
 
-### Acknowledgments -->
+<!-- ## Good Implementations -->
+
+<!-- ## Useful Resources -->
+
+<!-- - [The link title](The link) -->
+
+## Acknowledgments
+
+- Thanks Hassia Issah for your helpful comment. [@Hassiai](https://www.frontendmentor.io/profile/Hassiai)
 
 ## Author
 
 - My Frontend Mentor Profile Page - [@adonmez04](https://www.frontendmentor.io/profile/adonmez04)
 - For those of you reading this, have a nice day!
-
-#### The Challenge Page
-
-- [Stats preview card component](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62)
